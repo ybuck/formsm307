@@ -22,4 +22,4 @@ VALUES ('$Vorname', '$Nachname', '$Strasse', '$Postleitzahl', '$Wohnort', '$Tele
 $db -> query($sql);
 $id = $db -> lastInsertId();
 echo $db -> errorInfo()[2];
-header('Location: confirm.php?id='.$id);
+header('Location: confirm.php);
