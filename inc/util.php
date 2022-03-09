@@ -46,5 +46,6 @@ function _log( string $mess, int $level = info ): void{
 }
 
 _log('connect',4);
-$db = new \PDO("mysql:dbname=M307_Praxisarbeit", 'root', '',
+$db = new \PDO("mysql:dbname=M307_Praxisarbeit", 'root', 'root',
   [\PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC]);
+  

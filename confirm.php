@@ -10,17 +10,16 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <head>
 <body>
-    <div>
-    <h1>Confirmation Page of Customer Info</h1>
-
-        <p>Thank you for submitting this form. 
-        <p>We have successfully received it. 
-        <p>Below is a summary of the information you provided.<br><br>  
+    <div class="justify-content-center">
+    <div class="container border card p-3 bg-light col-md-4">
+        <p>Danke fürs ausfüllen, wir haben die Daten erfolgreich erhalten.
+        <p>Ihre Daten werden nochmals hier aufgelistet:<br><br>  
             <?php
-            echo 'Vorname: ' . $_POST ["vorname"] . '<br>';
-            echo 'Nachname: ' . $_POST ["LastName"] . '<br>';
-            echo 'Email Addresse: ' . $_POST ["email"] . '<br>';
-            echo 'Telefonnummer:  ' . $_POST ["telefonnummer"];
+            echo 'Vorname: ' . $_POST["vorname"] . '<br>';
+            echo 'Nachname: ' . $_POST["nachname"] . '<br>';
+            echo 'Email Addresse: ' . $_POST["EMail"] . '<br>';
+            echo 'Telefonnummer:  ' . $_POST ["Telefonnummer"];
             ?>
+    </div>
     </div>
 </body>

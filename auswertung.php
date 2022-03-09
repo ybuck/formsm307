@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    <?php if (isset($_POST['form_submitted'])): ?> //this code is executed when the form is submitted
+    <?php if (isset($_POST['form_submitted'])): ?>
 
         <h2>Thank You <?php echo $_POST['vorname']; ?> </h2>
 

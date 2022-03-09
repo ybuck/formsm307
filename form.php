@@ -14,7 +14,7 @@
         <div class="titel">
             <h1 access="false" id="control-2154729">Kunden Erfassung</h1>
         </div>
-    <form action="auswertung.php" method="post">
+    <form action="save.php" method="post">
         <div class="form d-flex justify-content-center col-md-8 offset-md-2">
             <div class="form-items container border card p-3 bg-light">
                 <div class="row">
@@ -68,7 +68,7 @@
                 </div>
                 <div class="container flex-container center">
                     <div class="row col-md- submit">
-                        <input class="btn btn-primary" type="submit" value="Submit" formaction="confirm.php">
+                        <input class="btn btn-primary" type="submit" value="Submit" formaction="save.php">
                     </div>
                 </div>
             </div>
