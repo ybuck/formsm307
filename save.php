@@ -12,7 +12,7 @@ $Telefonnummer=$_POST['Telefonnummer'];
 $EMail=$_POST['EMail'];
 $Kundenklasse=$_POST['Kundenklasse'];
 
-$db=new \PDO("mysql:dbname=m307_praxisarbeit", 'root', 'root');
+$db=new \PDO("mysql:dbname=m307_praxisarbeit", 'm307-root', 'root1234');
 
 $sql="INSERT INTO `m307_praxisarbeit` (`idM307_Praxisarbeit`, `Vorname`, `Nachname`, `Strasse`, `Postleitzahl`, `Wohnort`, `Telefonnummer`, `EMail`, `Kundenklasse`) VALUES ('$Vorname', '$Nachname', '$Strasse', '$Postleitzahl', '$Wohnort', '$Telefonnummer', '$EMail', '$Kundenklasse') ";
 
